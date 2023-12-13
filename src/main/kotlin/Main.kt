@@ -37,6 +37,7 @@ fun main(args: Array<String>) {
     }
 
 
+
     var eqData3 = koshiSolver.kutta3Dynamic(::syst, firstSpot, end, e)
     println("При выполнении kutta3 правая часть была вызвана $calls раз")
     calls = 0
